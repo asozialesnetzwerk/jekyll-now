@@ -4,6 +4,7 @@ freebsd_instance:
 task:
   install_script:
     - pkg install -y rubygem-jekyll
+    - pkg install -y rubygem-jekyll-sitemap
     - pkg install -y npm
     - npm install -g @commonshost/cli
   build_script: jekyll build
