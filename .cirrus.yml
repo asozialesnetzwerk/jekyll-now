@@ -3,8 +3,8 @@ freebsd_instance:
 
 task:
   install_script:
-    - pkg install -y rubygem-jekyll
-    - pkg install -y rubygem-jekyll-sitemap
+    - pkg install -y ruby-gems
+    - gem install github-pages
     - pkg install -y npm
     - npm install -g @commonshost/cli
   build_script: jekyll build
