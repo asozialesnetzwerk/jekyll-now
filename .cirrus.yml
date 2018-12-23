@@ -8,4 +8,4 @@ task:
     - npm install -g @commonshost/cli
   build_script: jekyll build
   login_script: commonshost login --username asozialesnetzwerk --password 367648314184826880
-  deploy_script: commonhost deploy --domain asozialesnetzwerk.commons.host
+  deploy_script: commonhost deploy --domain asozialesnetzwerk.commons.host --root ./_site
