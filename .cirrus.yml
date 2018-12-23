@@ -3,7 +3,7 @@ freebsd_instance:
 
 task:
   install_script:
-    - pkg install -y ruby-gems
+    - pkg install -y ruby24-gems
     - gem install github-pages
     - pkg install -y npm
     - npm install -g @commonshost/cli
